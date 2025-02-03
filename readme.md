@@ -5,5 +5,9 @@
 ```js
 let x = 10;
 let y = 20;
-console.log(x + y);
+function add(a, b) {
+    return a + b;
+}
+let result = add(x, y);
+console.log(result);
 ```
