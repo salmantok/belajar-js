@@ -3,11 +3,13 @@
 > Referensi pribadi
 
 ```js
-let x = 10;
-let y = 20;
-function add(a, b) {
-    return a + b;
+let a = 20,
+    b = 30;
+function divide(a, b) {
+    if (b == 0) {
+        throw 'Division by zero';
+    }
+    return a / b;
 }
-let result = add(x, y);
-console.log(result);
+console.log(divide(a, b));
 ```
