@@ -4,5 +4,7 @@
 
 ```js
 let items = [1, 2, 3];
-console.log(items.length);
+for (let i = 0; i < items.length; i++) {
+    console.log(items[i]);
+}
 ```
